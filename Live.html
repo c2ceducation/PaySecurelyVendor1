@@ -1,1 +1,32 @@
 
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Check data</title>
+</head>
+<body>
+<form name="frm_payInternational" action="https://paysecurely.online/publicRequest" method="post">
+                <input type="hidden" name="secret_value" value="8765tyuhfdcbhgbwjhebr">
+                <input type="hidden" name="vendor_id" value="e7gf5ug-c581-4aae-99fc-ef6bd145fb55">
+                <input type="hidden" name="request_id" value="fh5tger655">
+
+
+                <div style="margin-bottom:15px;">
+                    <input name="name" id="name" placeholder="Enter name" style="width:400px;height:30px;border-radius:5px;" >
+                </div>
+                <div style="margin-bottom:15px;">
+                    <input name="mobile" id="mobile" placeholder="Enter mobile number" style="width:400px;height:30px;border-radius:5px;" >
+                </div>
+                <div style="margin-bottom:15px;">
+                    <input name="amount" id="paymentInterAmt" placeholder="Enter Amount" style="width:400px;height:30px;border-radius:5px;" >
+                </div>
+                
+                <div style="margin-bottom:15px;">
+                    <button type="submit" name="btn_makePaymentInter" id="btn_makePaymentInter" class="btn">Make Payment</button>
+                </div>
+            </form>
+</body>
+</html>
